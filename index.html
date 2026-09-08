@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>REDFALCON — Digital Creations Studio</title>
+  <meta name="description" content="REDFALCON Digital Studio — Jual Games, Website & Expert Advisor MT4/MT5 premium." />
+  <link rel="icon" type="image/jpeg" href="logo.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800;900&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===== LOADER ===== -->
+  <div id="loader" class="loader">
+    <div class="loader-emblem">
+      <div class="loader-falcon">F</div>
+      <div class="loader-bar"><span></span></div>
+      <div class="loader-text">REDFALCON</div>
+    </div>
+  </div>
+
+  <!-- ===== NAV ===== -->
+  <nav id="navbar" class="nav">
+    <div class="container nav-inner">
+<a href="#home" class="brand">
+        <span class="brand-logo">
+          <img src="logo.jpg" alt="REDFALCON logo" />
+        </span>
+        <span class="brand-text">RED<span>FALCON</span></span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section id="home" class="hero">
+    <div class="hero-grid"></div>
+    <div class="hero-glow hero-glow-1"></div>
+    <div class="hero-glow hero-glow-2"></div>
+    <canvas id="particleCanvas" class="particles"></canvas>
+    <div class="container hero-inner">
+      <span class="hero-badge"><i class="fa-solid fa-bolt"></i> Digital Studio Premium</span>
+      <h1 class="hero-title">
+        TEMPAT KARYA<br />
+        <span class="gradient-text">REDFALCON</span>
+      </h1>
+      <p class="hero-sub">
+        Developer hasilkan karya digital terbaik — <b>Games</b>, <b>Website</b>, &
+        <b>Expert Advisor MT4/MT5</b>. Gabungan seni & teknologi.
+      </p>
+      <div class="hero-actions">
+        <a href="#portfolio" class="btn btn-primary">Jelajah Karya <i class="fa-solid fa-arrow-down"></i></a>
+        <a href="#contact" class="btn btn-outline">Hubungi Developer</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><h2 data-count="7">0</h2><p>Karya Live</p></div>
+        <div class="stat"><h2 data-count="3">0</h2><p>Bidang Kepakaran</p></div>
+        <div class="stat"><h2 data-count="5">0</h2><p>Hari Operasi</p></div>
+        <div class="stat"><h2 data-count="100">0</h2><p>% Source Code</p></div>
+      </div>
+    </div>
+    <div class="scroll-hint"><span></span></div>
+  </section>
+
+  <!-- ===== MARQUEE ===== -->
+  <div class="marquee">
+    <div class="marquee-track">
+      <span>GAMES</span><i class="fa-solid fa-gamepad"></i>
+      <span>WEBSITES</span><i class="fa-solid fa-globe"></i>
+      <span>EXPERT ADVISOR</span><i class="fa-solid fa-chart-line"></i>
+      <span>MT4</span><i class="fa-solid fa-crown"></i>
+      <span>MT5</span><i class="fa-solid fa-fire"></i>
+      <span>GAMES</span><i class="fa-solid fa-gamepad"></i>
+      <span>WEBSITES</span><i class="fa-solid fa-globe"></i>
+      <span>EXPERT ADVISOR</span><i class="fa-solid fa-chart-line"></i>
+      <span>MT4</span><i class="fa-solid fa-crown"></i>
+      <span>MT5</span><i class="fa-solid fa-fire"></i>
+    </div>
+  </div>
+
+  <!-- ===== SERVICES ===== -->
+  <section id="services" class="section">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">Apa Yang Kami Buat</span>
+        <h2 class="section-title">Perkhidmatan <span class="gradient-text">Premium</span></h2>
+        <p class="section-sub">Tujuh fokus utama studio kami untuk semua keperluan digital anda.</p>
+      </div>
+      <div class="services-grid">
+        <article class="service-card" data-tilt>
+          <div class="service-icon"><i class="fa-solid fa-gamepad"></i></div>
+          <h3>Indie Games</h3>
+          <p>Permainan 2D & 3D dengan gameplay unik, animasi licin dan cerita yang melekat di hati.</p>
+          <span class="service-num">01</span>
+        </article>
+        <article class="service-card" data-tilt>
+          <div class="service-icon"><i class="fa-solid fa-globe"></i></div>
+          <h3>Website Premium</h3>
+          <p>Landing page, company profile, e-commerce & web apps — responsive dan berkelajuan tinggi.</p>
+          <span class="service-num">02</span>
+        </article>
+        <article class="service-card" data-tilt>
+          <div class="service-icon"><i class="fa-solid fa-gears"></i></div>
+          <h3>Expert Advisor MT4</h3>
+          <p>EA MQL4 tersedia, teruji dengan backtest & forward-testing, bersedia untuk akaun live.</p>
+          <span class="service-num">03</span>
+        </article>
+        <article class="service-card" data-tilt>
+          <div class="service-icon"><i class="fa-solid fa-chart-line"></i></div>
+          <h3>Expert Advisor MT5</h3>
+          <p>EA MQL5 moden dengan tick-level accuracy, multi-pair & risk management fleksibel.</p>
+          <span class="service-num">04</span>
+        </article>
+        <article class="service-card" data-tilt>
+          <div class="service-icon"><i class="fa-solid fa-shield-halved"></i></div>
+          <h3>EA Custom Order</h3>
+          <p>Strategi anda, kami realisasikan. Coding EA sepenuhnya custom mengikut set rules anda.</p>
+          <span class="service-num">05</span>
+        </article>
+        <article class="service-card" data-tilt>
+          <div class="service-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+          <h3>UX / UI Design</h3>
+          <p>Reka bentuk antara muka moden yang bersih, intuitif dan memukau bagi setiap produk.</p>
+          <span class="service-num">06</span>
+        </article>
+        <article class="service-card" data-tilt>
+          <div class="service-icon"><i class="fa-solid fa-headset"></i></div>
+          <h3>Maintenance & Support</h3>
+          <p>Update berkala, bug fix dan sokongan teknikal bagi memastikan produk sentiasa terbaik.</p>
+          <span class="service-num">07</span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PORTFOLIO ===== -->
+  <section id="portfolio" class="section portfolio">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">Portfolio</span>
+        <h2 class="section-title">Karya <span class="gradient-text">Hak Penuh</span></h2>
+        <p class="section-sub">Semua projek live & berfungsi. Dijual terus dengan hak IP penuh + source code.</p>
+        <div class="filter-bar">
+          <button class="filter-btn active" data-filter="all">Semua</button>
+          <button class="filter-btn" data-filter="game">Games</button>
+          <button class="filter-btn" data-filter="web">Websites</button>
+          <button class="filter-btn" data-filter="ea">Expert Advisor</button>
+        </div>
+      </div>
+
+      <div class="portfolio-grid" id="portfolioGrid">
+
+        <!-- HeroMath — GAME (Featured) -->
+        <article class="work-card featured" data-category="game" data-tilt>
+          <div class="work-media game-visual" data-game="2">
+            <img src="assets/projects/heromath.jpg" alt="Skrin HeroMath — School World MMO" class="work-shot" loading="lazy">
+            <span class="work-badge live"><i class="fa-solid fa-circle"></i> LIVE</span>
+            <span class="work-badge hot">MMO EDU</span>
+          </div>
+          <div class="work-body">
+            <div class="work-cat">Game Pendidikan · Multiplayer</div>
+            <h3>HeroMath — School World MMO</h3>
+            <p>Peta sekolah 3D + 10 Menara Matematik, arena MOBA 5v5 realtime, go-kart sifir, futsal online, pet system, guild, bilik hias, shop + topup FPX & 3 peranan (Pelajar/Guru/Ibu Bapa).</p>
+            <div class="work-meta">
+              <span><i class="fa-solid fa-flag"></i> Arena MOBA 5v5</span>
+              <span><i class="fa-solid fa-people-group"></i> 3 Peranan</span>
+            </div>
+            <div class="work-actions">
+              <a href="https://heromath.vercel.app/" target="_blank" rel="noopener" class="btn btn-small btn-outline"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+              <a href="#contact" class="btn btn-small btn-primary">Beli IP Penuh</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Veil of Lies — GAME -->
+        <article class="work-card" data-category="game" data-tilt>
+          <div class="work-media game-visual" data-game="4">
+            <img src="assets/projects/veiloflies.jpg" alt="Skrin Veil of Lies — Detective RPG" class="work-shot" loading="lazy">
+            <span class="work-badge live"><i class="fa-solid fa-circle"></i> LIVE</span>
+            <span class="work-badge">RPG DETEKTIF</span>
+          </div>
+          <div class="work-body">
+            <div class="work-cat">Indie Game · Story RPG</div>
+            <h3>Veil of Lies — Detective RPG</h3>
+            <p>7 wilayah unik, combat turn-based, evidence board, sistem teori, 5 ending berbeza. "Lies believed by many can become reality."</p>
+            <div class="work-meta">
+              <span><i class="fa-solid fa-gamepad"></i> 7 wilayah</span>
+              <span><i class="fa-solid fa-door-open"></i> 5 ending</span>
+            </div>
+            <div class="work-actions">
+              <a href="https://veiloflies.vercel.app/" target="_blank" rel="noopener" class="btn btn-small btn-outline"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+              <a href="#contact" class="btn btn-small btn-primary">Beli IP Penuh</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- SewaKu — WEBSITE -->
+        <article class="work-card" data-category="web" data-tilt>
+          <div class="work-media web-visual" data-theme="dark">
+            <img src="assets/projects/sewaku.jpg" alt="Skrin SewaKu — Sewa Rumah Platform" class="work-shot" loading="lazy">
+            <span class="work-badge live"><i class="fa-solid fa-circle"></i> LIVE</span>
+            <span class="work-badge hot">MARKETPLACE</span>
+          </div>
+          <div class="work-body">
+            <div class="work-cat">Website · Marketplace Hartanah</div>
+            <h3>SewaKu — Sewa Rumah Platform</h3>
+            <p>Hartanah terpilih di KL/Selangor/Putrajaya/JB. Search & filter, AI Match, chat tuan rumah, book viewing, landlord dashboard SaaS & sistem anti-penipuan.</p>
+            <div class="work-meta">
+              <span><i class="fa-solid fa-magnifying-glass"></i> Search & Filter</span>
+              <span><i class="fa-solid fa-gauge-high"></i> SaaS Dashboard</span>
+            </div>
+            <div class="work-actions">
+              <a href="https://sewaku-rouge.vercel.app/" target="_blank" rel="noopener" class="btn btn-small btn-outline"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+              <a href="#contact" class="btn btn-small btn-primary">Beli IP Penuh</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Gelanggang — WEBSITE -->
+        <article class="work-card" data-category="web" data-tilt>
+          <div class="work-media web-visual" data-theme="dark">
+            <img src="assets/projects/gelanggang.jpg" alt="Skrin Gelanggang — Coach Marketplace" class="work-shot" loading="lazy">
+            <span class="work-badge live"><i class="fa-solid fa-circle"></i> LIVE</span>
+            <span class="work-badge hot">KONTRAK DIGITAL</span>
+          </div>
+          <div class="work-body">
+            <div class="work-cat">Website · Platform Jurulatih</div>
+            <h3>Gelanggang — Coach Marketplace</h3>
+            <p>Tempah jurulatih sukan seluruh Malaysia. Kontrak digital sah sisi undang-undang (Akta 2006 & PDPA 2010), pembayaran ToyyibPay FPX, dasar bayaran balik automatik & panel admin.</p>
+            <div class="work-meta">
+              <span><i class="fa-solid fa-scale-balanced"></i> Legal-grade kontrak</span>
+              <span><i class="fa-solid fa-shield-halved"></i> PDPA 2010</span>
+            </div>
+            <div class="work-actions">
+              <a href="https://gelanggang.vercel.app/" target="_blank" rel="noopener" class="btn btn-small btn-outline"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+              <a href="#contact" class="btn btn-small btn-primary">Beli IP Penuh</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- XAUUSD COT — WEBSITE -->
+        <article class="work-card" data-category="web" data-tilt>
+          <div class="work-media ea-visual">
+            <img src="assets/projects/xauusdcot.jpg" alt="Skrin Gold COT Report — Institutional Tracker" class="work-shot" loading="lazy">
+            <span class="work-badge live"><i class="fa-solid fa-circle"></i> LIVE</span>
+            <span class="work-badge hot">TRADING</span>
+          </div>
+          <div class="work-body">
+            <div class="work-cat">Website · Trading Dashboard</div>
+            <h3>Gold COT Report — Institutional Tracker</h3>
+            <p>Data CFTC weekly dengan confluence score (+6/-6): bias COT, TA H1/H4/D1 TradingView, DXY & Fed news filter, institutional S/R, whale concentration & live signal.</p>
+            <div class="work-meta">
+              <span><i class="fa-solid fa-vault"></i> Data CFTC</span>
+              <span><i class="fa-solid fa-chart-simple"></i> Score +6/-6</span>
+            </div>
+            <div class="work-actions">
+              <a href="https://xauusd-cot.vercel.app/" target="_blank" rel="noopener" class="btn btn-small btn-outline"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demo</a>
+              <a href="#contact" class="btn btn-small btn-primary">Beli IP Penuh</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- AiGoldx — EA MT4 -->
+        <article class="work-card" data-category="ea" data-tilt>
+          <div class="work-media ea-visual compact">
+            <div class="ea-chart-mini"><canvas class="ea-chart-mini-canvas" width="300" height="120"></canvas></div>
+            <span class="work-badge hot"><i class="fa-solid fa-circle"></i> MQL5</span>
+          </div>
+          <div class="work-body">
+            <div class="work-cat">Expert Advisor · MT4 · XAUUSD</div>
+            <h3>AiGoldx — Gold BB Multi-Filter EA</h3>
+            <p>Bollinger multi-timeframe dengan 9 filter: MA100 trend gate, S/R auto-detect, sideways, ADX, USD strength, smart close & weekend auto-close. Timeframe 15m.</p>
+            <div class="work-meta">
+              <span><i class="fa-solid fa-file-shield"></i> MQL5 Approved</span>
+              <span><i class="fa-solid fa-filter"></i> 9 Filter</span>
+            </div>
+            <div class="work-actions">
+              <a href="https://www.mql5.com/en/market/product/176206" target="_blank" rel="noopener" class="btn btn-small btn-outline"><i class="fa-solid fa-arrow-up-right-from-square"></i> MQL5</a>
+              <a href="#contact" class="btn btn-small btn-primary">Beli IP Penuh</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- AiGridX — EA MT4 -->
+        <article class="work-card" data-category="ea" data-tilt>
+          <div class="work-media ea-visual compact">
+            <div class="ea-chart-mini"><canvas class="ea-chart-mini-canvas" width="300" height="120"></canvas></div>
+            <span class="work-badge hot"><i class="fa-solid fa-circle"></i> MQL5</span>
+          </div>
+          <div class="work-body">
+            <div class="work-cat">Expert Advisor · MT4 · Grid</div>
+            <h3>AiGridX — Bidirectional Grid EA</h3>
+            <p>Grid dua arah (Buy + Sell serentak) dengan MiroFish graph intelligence, Bollinger exit, ADX & Friday filter, linear atau martingale lot, live dashboard.</p>
+            <div class="work-meta">
+              <span><i class="fa-solid fa-file-shield"></i> MQL5 Approved</span>
+              <span><i class="fa-solid fa-left-right"></i> Buy + Sell</span>
+            </div>
+            <div class="work-actions">
+              <a href="https://www.mql5.com/en/market/product/178494" target="_blank" rel="noopener" class="btn btn-small btn-outline"><i class="fa-solid fa-arrow-up-right-from-square"></i> MQL5</a>
+              <a href="#contact" class="btn btn-small btn-primary">Beli IP Penuh</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PRICING ===== -->
+  <section id="pricing" class="section pricing">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">Pricing</span>
+        <h2 class="section-title">Harga <span class="gradient-text">Servis</span></h2>
+        <p class="section-sub">Harga telus & berpatutan — 100% komitmen, kerja kemas & profesional, tepat pada masa.</p>
+      </div>
+
+      <div class="pricing-menu">
+
+        <div class="price-menu-card" data-tilt>
+          <div class="pm-head">
+            <div class="pm-icon"><i class="fa-solid fa-globe"></i></div>
+            <div><h3>Website & Web App</h3><span>HTML · CSS · JS · Next.js · Supabase · Cloudflare · Vercel · PHP · Laravel · MySQL · Node.js</span></div>
+          </div>
+          <ul class="pm-list">
+            <li><span>Landing Page (1 Section, Responsif)</span><b>RM 300</b></li>
+            <li><span>Portfolio Moden & Menarik</span><b>RM 500</b></li>
+            <li><span>Website + Admin (Urus Content)</span><b>RM 800</b></li>
+            <li><span>Custom / Khas Ikut Keperluan</span><b>RM 1,200+</b></li>
+          </ul>
+        </div>
+
+        <div class="price-menu-card" data-tilt>
+          <div class="pm-head">
+            <div class="pm-icon"><i class="fa-solid fa-gamepad"></i></div>
+            <div><h3>Game Development</h3><span>HTML5 · JS · Three.js · Godot · Firebase · WebSocket</span></div>
+          </div>
+          <ul class="pm-list">
+            <li><span>Game Android APK</span><b>RM 300+</b></li>
+            <li><span>2D Simple (Puzzle / Arcade)</span><b>RM 500</b></li>
+            <li><span>Web Game (Main di Browser)</span><b>RM 800</b></li>
+            <li><span>Platform / Side Scroll</span><b>RM 1,000+</b></li>
+            <li><span>3D Web — Three.js (Ringan & Lancar)</span><b>RM 1,500+</b></li>
+            <li><span>Kuiz / Custom / Sistem Multiplayer</span><b>RM 2,000+</b></li>
+            <li><span>3D Game Penuh (Godot)</span><b>RM 3,000+</b></li>
+          </ul>
+        </div>
+
+        <div class="price-menu-card" data-tilt>
+          <div class="pm-head">
+            <div class="pm-icon"><i class="fa-solid fa-chart-line"></i></div>
+            <div><h3>Expert Advisor</h3><span>MetaTrader 4 (MT4) · MetaTrader 5 (MT5)</span></div>
+          </div>
+          <ul class="pm-list">
+            <li><span>Indikator / EA Custom (Basic)</span><b>RM 500</b></li>
+            <li><span>EA Pairs / Filter Tambahan</span><b>RM 1,800+</b></li>
+            <li><span>EA Auto Trade / Money Management</span><b>RM 2,500+</b></li>
+            <li><span>EA Custom Advanced (Multi Strategy / High Performance)</span><b>RM 3,500+</b></li>
+          </ul>
+        </div>
+
+        <div class="price-menu-card" data-tilt>
+          <div class="pm-head">
+            <div class="pm-icon"><i class="fa-solid fa-wrench"></i></div>
+            <div><h3>Servis Tambahan</h3><span>Untuk projek sedia ada</span></div>
+          </div>
+          <ul class="pm-list">
+            <li><span>Fix Bug</span><b>RM 100+</b></li>
+            <li><span>Upgrade / Tambah Feature</span><b>RM 150+</b></li>
+          </ul>
+          <p class="pm-note">Harga mengikut kerumitan projek — mesej kami untuk quotation tepat.</p>
+        </div>
+
+      </div>
+
+      <!-- Proses kerja -->
+      <div class="pm-process">
+        <div class="process-step"><span>01</span><div><h4>Idea / Konsep</h4><p>Anda beri idea, kami susun.</p></div></div>
+        <div class="process-step"><span>02</span><div><h4>Design & Coding</h4><p>Rekaan kemas & bersih.</p></div></div>
+        <div class="process-step"><span>03</span><div><h4>Testing</h4><p>Uji habis-habisan sebelum hantar.</p></div></div>
+        <div class="process-step"><span>04</span><div><h4>Siap & Online</h4><p>Live di internet, support selepas.</p></div></div>
+      </div>
+
+      <div class="pm-cta">
+        <div class="pm-cta-icon"><i class="fa-solid fa-bolt"></i></div>
+        <div>
+          <h3>TAK PANDAI CODING?</h3>
+          <p>Beri idea anda — saya realisasikan daripada konsep hingga siap dan online. 100% komitmen · Kerja kemas & profesional · Rahsia terjamin · Respons pantas.</p>
+        </div>
+        <a href="#contact" class="btn btn-primary">PM Sekarang — Dapatkan Quotation <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== TECHNOLOGY ===== -->
+  <section class="section tech-section">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">Teknologi</span>
+        <h2 class="section-title">Senarai <span class="gradient-text">Teknologi</span></h2>
+        <p class="section-sub">Tools & stack yang digunakan dalam setiap projek — daripada frontend hingga deployment.</p>
+      </div>
+    </div>
+    <div class="tech-marquee">
+      <div class="tech-track">
+        <span><i class="fa-brands fa-html5"></i> HTML5</span>
+        <span><i class="fa-brands fa-css3-alt"></i> CSS3</span>
+        <span><i class="fa-brands fa-js"></i> JavaScript</span>
+        <span><i class="fa-brands fa-node-js"></i> Node.js</span>
+        <span>Next.js</span>
+        <span><i class="fa-brands fa-php"></i> PHP</span>
+        <span><i class="fa-brands fa-laravel"></i> Laravel</span>
+        <span>MySQL</span>
+        <span>Supabase</span>
+        <span>Cloudflare</span>
+        <span>Vercel</span>
+        <span>Three.js</span>
+        <span>Godot</span>
+        <span>Firebase</span>
+        <span>WebSocket</span>
+        <span>MQL4</span>
+        <span>MQL5</span>
+        <span><i class="fa-brands fa-html5"></i> HTML5</span>
+        <span><i class="fa-brands fa-css3-alt"></i> CSS3</span>
+        <span><i class="fa-brands fa-js"></i> JavaScript</span>
+        <span><i class="fa-brands fa-node-js"></i> Node.js</span>
+        <span>Next.js</span>
+        <span><i class="fa-brands fa-php"></i> PHP</span>
+        <span><i class="fa-brands fa-laravel"></i> Laravel</span>
+        <span>MySQL</span>
+        <span>Supabase</span>
+        <span>Cloudflare</span>
+        <span>Vercel</span>
+        <span>Three.js</span>
+        <span>Godot</span>
+        <span>Firebase</span>
+        <span>WebSocket</span>
+        <span>MQL4</span>
+        <span>MQL5</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section about">
+    <div class="container about-inner">
+      <div class="about-visual">
+        <div class="dev-card">
+          <div class="dev-avatar"><i class="fa-solid fa-user-secret"></i></div>
+          <h3>The Red Falcon</h3>
+          <p>Solo Developer • Game Dev • Web Dev • MQL4/MQL5</p>
+          <div class="dev-skills">
+            <span>JavaScript</span><span>Next.js</span><span>Python</span><span>HTML/CSS</span>
+            <span>MQL4</span><span>MQL5</span><span>Godot</span>
+            <span>Supabase</span><span>Cloudflare</span><span>Vercel</span>
+          </div>
+          <div class="dev-soc">
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-discord"></i></a>
+            <a href="https://wa.me/60196886395" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="#" aria-label="Telegram"><i class="fa-brands fa-telegram"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="about-content">
+        <span class="section-tag">Tentang Saya</span>
+        <h2 class="section-title">Sebalik Sayap <span class="gradient-text">Red Falcon</span></h2>
+        <p>
+          Selamat datang ke halaman <b>REDFALCON Digital Studio</b>. Saya seorang developer
+          solo yang bergerak di tiga bidang utama — <b>pembangunan game</b>, <b>pembangunan web</b>,
+          dan <b>koding Expert Advisor MT4/MT5</b>.
+        </p>
+        <p>
+          Setiap karya dibina dengan penuh ketelitian supaya hasil yang diterima bukan sahaja berfungsi dengan baik,
+          tetapi juga kelihatan <b>gempak</b> dan profesional. Daripada konsep hingga final, semuanya dikawal sendiri
+          tanpa perantara — kualiti terjamin.
+        </p>
+        <div class="about-points">
+          <div class="apoint"><i class="fa-solid fa-medal"></i><div><h4>100% Original</h4><p>Setiap karya murni daripada idea sendiri.</p></div></div>
+          <div class="apoint"><i class="fa-solid fa-bolt"></i><div><h4>Realistic Timeline</h4><p>Deadline dirunding ikut skala projek — bukan janji kosong.</p></div></div>
+          <div class="apoint"><i class="fa-solid fa-lock"></i><div><h4>Guaranteed</h4><p>Warranty & update bila diperlukan.</p></div></div>
+        </div>
+        <div class="about-cta">
+          <a href="#contact" class="btn btn-primary">Mula Projek <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== KELEBIHAN ===== -->
+  <section class="section testimonial">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">Kenapa Kami</span>
+        <h2 class="section-title">Kelebihan <span class="gradient-text">Red Falcon</span></h2>
+      </div>
+      <div class="testi-grid">
+        <div class="testi-card adv-card" data-tilt>
+          <div class="adv-icon"><i class="fa-solid fa-layer-group"></i></div>
+          <h4>Serba Boleh</h4>
+          <p>Games, Website & Expert Advisor MT4/MT5 — semua dalam satu studio. Tak perlu cari developer lain-lain.</p>
+        </div>
+        <div class="testi-card adv-card" data-tilt>
+          <div class="adv-icon"><i class="fa-solid fa-crown"></i></div>
+          <h4>Hak Penuh Milik Anda</h4>
+          <p>Source code + hak IP penuh diserahkan kepada pembeli. Tiada komisen atau royalti tersembunyi.</p>
+        </div>
+        <div class="testi-card adv-card" data-tilt>
+          <div class="adv-icon"><i class="fa-solid fa-headset"></i></div>
+          <h4>Support Selepas Siap</h4>
+          <p>Waranti & update bila perlu. Respons pantas menerusi WhatsApp mengikut waktu operasi.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <div class="section-head">
+        <span class="section-tag">Hubungi</span>
+        <h2 class="section-title">Mari Bina <span class="gradient-text">Bersama</span></h2>
+        <p class="section-sub">Ada idea? Isi borang di bawah, kami balas dalam masa 24 jam.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="citem"><i class="fa-solid fa-envelope"></i><div><h4>Email</h4><p>hello@redfalcon.studio</p></div></div>
+          <div class="citem"><i class="fa-brands fa-whatsapp"></i><div><h4>WhatsApp</h4><p>019 688 6395 <span class="wa-note">(chat sahaja — tiada panggilan)</span></p></div></div>
+          <div class="citem"><i class="fa-solid fa-location-dot"></i><div><h4>Studio</h4><p>Digital, Malaysia</p></div></div>
+          <div class="citem"><i class="fa-solid fa-clock"></i><div><h4>Operasi</h4><p>Isnin – Jumaat • 8:30 PM – 12:00 AM MYT</p></div></div>
+          <div class="contact-soc">
+            <a href="#" aria-label="Github"><i class="fa-brands fa-github"></i></a>
+            <a href="#" aria-label="Discord"><i class="fa-brands fa-discord"></i></a>
+            <a href="https://wa.me/60196886395" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="#" aria-label="Telegram"><i class="fa-brands fa-telegram"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <div class="form-row">
+            <input type="text" name="name" placeholder="Nama Anda *" required />
+            <input type="email" name="email" placeholder="Email Anda *" required />
+          </div>
+          <select name="service" required>
+            <option value="" disabled selected>Pilih Jenis Projek *</option>
+            <option>Game Development</option>
+            <option>Website Development</option>
+            <option>Expert Advisor MT4</option>
+            <option>Expert Advisor MT5</option>
+            <option>Custom / Lain-lain</option>
+          </select>
+          <textarea name="message" rows="5" placeholder="Ceritakan idea anda... *" required></textarea>
+          <button type="submit" class="btn btn-primary btn-block">
+            Hantar Mesej <i class="fa-solid fa-paper-plane"></i>
+          </button>
+          <p class="form-status" id="formStatus"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#home" class="brand"><span class="brand-logo">
+          <img src="logo.jpg" alt="REDFALCON logo" />
+        </span>
+        <span class="brand-text">RED<span>FALCON</span></span></a>
+        <p>Digital Studio — membina impian digital anda. Games, Websites & Expert Advisor MT4/MT5.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Sitemap</h4>
+        <a href="#home">Home</a><a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a><a href="#pricing">Pricing</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-links">
+        <h4>Produk</h4>
+        <a href="#portfolio">Indie Games</a><a href="#portfolio">Website</a>
+        <a href="#portfolio">EA MT4</a><a href="#portfolio">EA MT5</a>
+      </div>
+      <div class="footer-links">
+        <h4>Newsletter</h4>
+        <p>Dapatkan info terkini produk & promosi.</p>
+        <div class="newsletter">
+          <input type="email" placeholder="Email anda..." />
+          <button aria-label="Subscribe"><i class="fa-solid fa-paper-plane"></i></button>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 REDFALCON Studio. Hak cipta terpelihara.</p>
+      <p>Built with <i class="fa-solid fa-heart"></i> by Red Falcon</p>
+    </div>
+  </footer>
+
+  <!-- ===== TOAST ===== -->
+  <div class="toast" id="toast"><i class="fa-solid fa-circle-check"></i><span>Mesej anda telah dihantar!</span></div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
