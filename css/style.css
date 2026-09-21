@@ -196,6 +196,12 @@ section { position: relative; }
   border: 1px solid rgba(255,255,255,0.2);
 }
 .btn-outline:hover { border-color: var(--red); color: var(--red-2); transform: translateY(-3px); }
+.btn-shopee {
+  background: linear-gradient(135deg, #f53d2d, #ee4d2d);
+  color: #fff;
+  box-shadow: 0 8px 30px rgba(238, 77, 45, 0.35), inset 0 0 0 1px rgba(255, 255, 255, 0.08);
+}
+.btn-shopee:hover { transform: translateY(-3px); box-shadow: 0 14px 40px rgba(238, 77, 45, 0.55); }
 .btn-small { padding: 10px 22px; font-size: 12.5px; }
 .btn-block { width: 100%; justify-content: center; }
 .hero-stats {
@@ -553,6 +559,8 @@ section { position: relative; }
 .citem h4 { font-size: 15px; }
 .citem p { font-size: 13px; color: var(--grey); }
 .wa-note { display: inline-block; margin-left: 4px; color: var(--green); font-size: 12px; font-weight: 600; }
+.citem a { color: var(--red-2); text-decoration: none; font-weight: 600; transition: all 0.3s; }
+.citem a:hover { color: var(--red); text-decoration: underline; }
 .contact-soc { display: flex; gap: 12px; margin-top: 8px; }
 .contact-soc a {
   width: 44px; height: 44px; border-radius: 12px; display: grid; place-items: center;
